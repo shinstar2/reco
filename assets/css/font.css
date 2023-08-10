@@ -1,0 +1,65 @@
+/*
+### FontWeight별 사이즈
+```w100 Thin, the least thick
+w200 Extra-light
+w300 Light
+w400 Normal / regular / plain
+w500 Medium
+w600 Semi-bold
+w700 Bold
+w800 Extra-bold
+w900 Black, the most thick
+ 
+ */
+
+@font-face {
+    font-family: 'Pretend';
+    src: url(../font/Pretendard-Regular.woff) format('woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Pretend';
+    src: url(../font/Pretendard-Medium.woff) format('woff');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Pretend';
+    src: url(../font/Pretendard-SemiBold.woff) format('woff');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Pretend';
+    src: url(../font/Pretendard-Bold.woff) format('woff');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Pretend';
+    src: url(../font/Pretendard-ExtraBold.woff) format('woff');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Sora';
+    src: url(../font/Sora-Regular.ttf) format('ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Sora';
+    src: url(../font/Sora-Medium.ttf) format('ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Sora';
+    src: url(../font/Sora-SemiBold.ttf) format('ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Sora';
+    src: url(../font/Sora-Bold.ttf) format('ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Sora';
+    src: url(../font/Sora-ExtraBold.ttf) format('ttf');
+    font-weight: 800;
+}

@@ -1,0 +1,153 @@
+@import './font.css';
+@import './reset.css';
+@import './common.css';
+
+
+
+
+
+/*  */
+
+.header{
+   width: 100%;
+   position: fixed;
+   top: 0;
+   z-index: 20;
+   background: #fff;
+    
+}
+.header.fixed{
+    position: fixed;
+    top: -56px;
+    transition: 0.3s;
+}
+.header .inner{
+}
+.header .group-top{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid #ededed;
+    height: 56px;
+    padding: 0 48px;
+}
+.header .group-top a{}
+.header .group-top a+a::before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    margin: 0 18px;
+    background: #000;
+}
+.header .group-bottom{
+    display: block;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 48px;
+    font-weight: 600;
+}
+.header .group-bottom h1{
+    width: 150px;
+    height: 40px;
+    margin-right: 120px;
+}
+.header .group-bottom .group-menu{
+    display: flex;
+    gap: 80px;
+    margin-right: auto;
+}
+.header .group-bottom .group-button{
+    display: flex;gap: 20px;
+}
+.header .group-bottom .group-button button{
+    width: 168px;
+    height: 36px;
+    border-radius: 18px;
+    border: solid 1px #242424;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 0;
+    color: #242424;
+}
+.header .group-bottom .group-button button:first-child{
+    background: #2323a5;
+    color: #fff;
+}
+
+.footer{
+    position: relative;
+}
+.footer .inner{
+    width: var(--main-width);
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.footer .group-policy{display: flex; gap: 20px;}
+.footer .group-policy a{}
+.footer .group-policy a+a::before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #000;
+    margin-right: 20px;
+}
+
+.footer .group-contact{
+    margin: 40px 0;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 0.96;
+    letter-spacing: -0.39px;
+    text-align: left;
+    color: #000;
+}
+
+.footer .group-company{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.21px;
+    text-align: left;
+    color: #000;
+}
+
+.footer .group-company span{
+    display: block;
+}
+.footer .group-company span+span{
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+.footer .btn-qna{
+    position: fixed;
+    z-index: 20;
+    right: 48px;
+    bottom: 42px;
+    width: 157px;
+    height: 64px;
+    border-radius: 32px;
+    box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.19);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -0.24px;
+    color: #2a1617;
+    padding-right: 56px;
+    background-color: #ffbf00;
+    background-image: url(https://recopick.com/img/main/ask-btn2.svg);
+    box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.19);
+    background-size: 150px;
+    background-position: right -45px center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
